@@ -1,0 +1,111 @@
+Nótese que la curva está definida para $x\geq 0$ e $y\geq 0$. 
+Para los puntos interiores de la curva se tiene $x>0$ e $y>0$.
+
+$$
+\sqrt{x}+\sqrt{y}=\sqrt{a}, \qquad a>0.
+$$
+
+Elevando al cuadrado,
+
+$$
+y=(\sqrt{a}-\sqrt{x})^2
+=a+x-2\sqrt{ax}.
+$$
+
+La función que define la curva es
+
+$$
+f(x)=a+x-2\sqrt{ax},
+$$
+
+y su derivada es
+
+$$
+f'(x)=1-\sqrt{\frac{a}{x}}.
+$$
+
+Sea $P=(p,f(p))$ un punto de la curva $C$, con $p>0$. Entonces
+
+$$
+f(p)=a+p-2\sqrt{ap}.
+$$
+
+Por tanto, la ecuación de la tangente a $C$ en $P$ es
+
+$$
+y-\left(a+p-2\sqrt{ap}\right)
+=
+\left(1-\sqrt{\frac{a}{p}}\right)(x-p).
+$$
+
+Sea $M=(x_M,0)$ el punto de corte de la tangente con el eje $OX$.
+Como $y=0$, tenemos
+
+$$
+-\left(a+p-2\sqrt{ap}\right)
+=
+\left(1-\sqrt{\frac{a}{p}}\right)(x_M-p).
+$$
+
+Como
+
+$$
+a+p-2\sqrt{ap}=(\sqrt a-\sqrt p)^2
+$$
+
+y
+
+$$
+1-\sqrt{\frac ap}
+=\frac{\sqrt p-\sqrt a}{\sqrt p},
+$$
+
+se obtiene
+
+$$
+x_M-p=\sqrt p\,(\sqrt a-\sqrt p),
+$$
+
+y, por tanto,
+
+$$
+\boxed{x_M=\sqrt{ap}}.
+$$
+
+Ahora sea $N=(0,y_N)$ el punto de corte de la tangente con el eje $OY$.
+Tomando $x=0$ en la ecuación de la tangente,
+
+$$
+y_N
+=
+a+p-2\sqrt{ap}
+-\left(1-\sqrt{\frac ap}\right)p.
+$$
+
+Simplificando,
+
+$$
+\begin{aligned}
+y_N
+&=a+p-2\sqrt{ap}-p+\sqrt{ap}\\
+&=a-\sqrt{ap}.
+\end{aligned}
+$$
+
+Por tanto,
+
+$$
+\boxed{y_N=a-\sqrt{ap}}.
+$$
+
+Finalmente,
+
+$$
+x_M+y_N
+=
+\sqrt{ap}+a-\sqrt{ap}
+=
+\boxed{a}.
+$$
+
+Así, $a$ es la suma de la abscisa de $M$ y la ordenada de $N$.
